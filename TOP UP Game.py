@@ -12,11 +12,7 @@ root.title("TOP UP GAME ABCD")
 root.iconbitmap('H:\PICTURE\EMOT\icon\DColon.ico')
 root.resizable (height= False, width= False)
 
-class gbye:
-    def gbye():
-        bye="GOOD BYE"
-        messagebox.showinfo("THANK YOU!", bye)
-        exit(0)
+
 
 
 bg = PhotoImage(file="H:/UNDIP/SMT2/DKP/TUGAS AKHIR/bismillah final/bgawal.png")
@@ -458,7 +454,11 @@ button4=Button(root, command = pubg, image=btnpubg, borderwidth = 0).place(x = 1
 
 
 
-
+class gbye:
+    def gbye():
+        bye="GOOD BYE"
+        messagebox.showinfo("THANK YOU!", bye)
+        exit(0)
 
 
 
